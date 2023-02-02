@@ -1,0 +1,44 @@
+
+.jumbotron h1 {
+    color: rgb(39, 39, 143);
+    background-color: rgb(80, 138, 22);
+}
+
+nav * {
+    color: rgb(11, 105, 11);
+    font-weight: 700;
+}
+
+.jumbotron p a {
+    color:rgb(148, 148, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blog-post:first-of-type {
+    background-color: rgb(141, 141, 33);
+    font-size: larger;
+}
+.blog-post hr:first-of-type {
+    border-color: red;
+}
+nav span:nth-of-type(even) {
+    color: rgb(82, 10, 124);
+}
+.blog-sidebar div:nth-of-type(2) ol li:nth-of-type(even) a {
+    color: rgb(0, 255, 242);
+}
+.blog-post:nth-of-type(2) .blog-post-meta a {
+    color: rgb(51, 22, 22);
+}
+.blog-post:nth-of-type(3) ul li:nth-of-type(2) {
+    color: rgb(45, 161, 103);
+}
+body > a:last-of-type {
+    color: rgb(27, 16, 70);
+}
+nav.blog-pagination a:last-of-type {
+    background-color: rgb(218, 218, 151);
+}
+footer a:nth-of-type(2) {
+    color: rgb(133, 92, 92);
+}
